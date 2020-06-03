@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simulador tiro parabólico</title>
+    <link rel="stylesheet" href="./Decoracion.css" type="text/css" />
+    <script src="variables.js"></script>
+    <script src="funciones.js"></script>
+    <meta name="description" content=" Movimiento de proyectiles" />
+    <meta name="author" content="Nicolas Gutierrez, William Pineda" />
+  </head>
+
+  <body>
+    <h1>Proyecto integrador</h1>
+
+    <div id="total">
+      <div id="canvas">
+        <canvas id="cv" width="450" height="420"></canvas>
+      </div>
+      <div id="panel">
+        <div style="top: 10px;">
+          <button id="bu1" style="background-color: #797979;">
+            Reiniciar
+          </button>
+        </div>
+        <div style="top: 50px;">
+          <button id="bu2" style="background-color: #797979;">Iniciar</button>
+        </div>
+        <div style="top: 95px; color: rgb(0, 0, 0);">
+          <input type="checkbox" id="cbSlow" name="cbSlow" value="" /><label
+            for="cbSlow"
+            id="lbSlow"
+            >Aa</label
+          >
+        </div>
+        <div style="top: 125px; color: rgb(0, 0, 0);">
+          <span class="pos1" id="ipHa">Altura inicial:</span
+          ><input type="text" id="ipHb" /><span class="pos3" id="ipHc">m</span>
+        </div>
+        <div style="top: 155px; color: rgb(0, 0, 0);">
+          <span class="pos1" id="ipVa">Velocidad inicial:</span
+          ><input type="text" id="ipVb" /><span class="pos3" id="ipVc"
+            >m/s</span
+          >
+        </div>
+        <div style="top: 185px; color: rgb(0, 0, 0);">
+          <span class="pos1" id="ipWa">ANGULITOS</span
+          ><input type="text" id="ipWb" /><span class="pos3" id="ipWc">°</span>
+        </div>
+        <div style="top: 215px; color: rgb(0, 0, 0);">
+          <span class="pos1" id="ipMa">Masa:</span
+          ><input type="text" id="ipMb" /><span class="pos3" id="ipMc">kg</span>
+        </div>
+        <div style="top: 245px; color: rgb(0, 0, 0);">
+          <span class="pos1" id="ipGa">Aceleración gravitacional:</span
+          ><input type="text" id="ipGb" /><span class="pos3" id="ipGc"
+            >m/s²</span
+          >
+        </div>
+        <div style="top: 270px; color: rgb(0, 0, 0);">
+          <input type="radio" id="rbY" name="bg" value="" /><label
+            for="rbY"
+            id="lbY"
+            >Coordenadas</label
+          >
+        </div>
+        <div style="top: 295px; color: rgb(0, 0, 0);">
+          <input type="radio" id="rbV" name="bg" value="" /><label
+            for="rbV"
+            id="lbV"
+          ></label>
+        </div>
+        <div style="top: 400px;">
+          <span class="pos1" id="author"
+            >Nicolas Gutierrez,&nbsp; William Pineda</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

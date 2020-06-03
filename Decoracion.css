@@ -1,0 +1,155 @@
+/*Todos los elementos*/
+* {
+  margin: 40;
+  padding: 12;
+}
+
+/* Encabezados, párrafos, listas */
+
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+dl {
+  margin: 20px 20px 10px 20px;
+  color: rgb(0, 0, 0);
+}
+
+li {
+  margin-left: 40px;
+}
+
+dd {
+  margin-bottom: 25px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h1 {
+  border: 15px solid black;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p.Formel {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+p.Ende {
+  font-size: 30pt;
+}
+
+div#total {
+  position: relative;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#canvas {
+  position: absolute;
+}
+
+/* Botónes  */
+
+div#panel,
+div#panel1,
+div#panel2 {
+  position: absolute;
+  background-color: white;
+  border: 5px solid #000000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Posicion en el panel */
+
+div#panel div,
+div#panel1 div,
+div#panel2 div {
+  position: absolute;
+}
+
+/* Alineacion panel*/
+
+div#panel span,
+div#panel1 span,
+div#panel2 span {
+  position: absolute;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/*  Boton interruptor  */
+
+button {
+  height: 30px;
+  border-radius: 0px;
+  margin-left: 15px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*texto animacion*/
+
+label {
+  margin-left: 15px;
+  vertical-align: 10px;
+  font-weight: bolder;
+}
+
+/* Cuadro de entrada */
+
+input[type="text"] {
+  position: absolute;
+  padding-left: 5px;
+  height: 18px;
+  border-radius: 0px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Fondo*/
+body {
+  background-image: url("fondito.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 1400px;
+}
+div#total {
+  width: 1000px;
+  height: 00px;
+}
+div#panel {
+  left: 550px;
+  width: 400px;
+  height: 440px;
+}
+.pos1 {
+  left: 100px;
+}
+.pos3 {
+  left: 240px;
+}
+input[type="text"] {
+  left: 12px;
+  width: 60px;
+}
+button {
+  width: 260px;
+}
